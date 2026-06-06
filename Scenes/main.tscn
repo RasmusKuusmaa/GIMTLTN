@@ -2,6 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://50xyvlre24cm" path="res://Assets/Multi_Platformer_Tileset_Free/GrassLand/Terrain/Grassland_Terrain_47Tiles.png" id="1_jjgbg"]
 [ext_resource type="PackedScene" uid="uid://cfrxgoncjdik8" path="res://Scenes/player.tscn" id="2_bo1nx"]
+[ext_resource type="PackedScene" uid="uid://17tya4tswkdg" path="res://Scenes/enemy_1.tscn" id="3_8gbba"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_bo1nx"]
 texture = ExtResource("1_jjgbg")
@@ -74,3 +75,6 @@ tile_map_data = PackedByteArray("AAAAAAkAAAAEAAAAAAABAAkAAAAEAAAAAAACAAkAAAAEAAA
 tile_set = SubResource("TileSet_8gbba")
 
 [node name="Player" parent="." unique_id=773054061 instance=ExtResource("2_bo1nx")]
+
+[node name="Enemy1" parent="." unique_id=1119488267 instance=ExtResource("3_8gbba")]
+position = Vector2(174, 28)
