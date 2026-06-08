@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://17tya4tswkdg"]
 
 [ext_resource type="Texture2D" uid="uid://cf73qciforxc7" path="res://Assets/Knight 2D Pixel Art/Sprites/without_outline/ATTACK 3.png" id="1_lssre"]
+[ext_resource type="Script" uid="uid://dj8jww0pnapmi" path="res://scripts/enemy_1.gd" id="1_wlnc2"]
 [ext_resource type="Texture2D" uid="uid://3rq8mfbfrub2" path="res://Assets/Knight 2D Pixel Art/Sprites/without_outline/IDLE.png" id="2_wlnc2"]
 [ext_resource type="Texture2D" uid="uid://dninig8r04ubi" path="res://Assets/Knight 2D Pixel Art/Sprites/without_outline/RUN.png" id="3_hmo6u"]
 
@@ -173,6 +174,7 @@ animations = [{
 radius = 7.0
 
 [node name="Enemy1" type="CharacterBody2D" unique_id=1119488267]
+script = ExtResource("1_wlnc2")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=591031351]
 sprite_frames = SubResource("SpriteFrames_ibae7")
