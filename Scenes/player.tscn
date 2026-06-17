@@ -183,6 +183,7 @@ script = ExtResource("1_cvnsp")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1125305111]
 zoom = Vector2(5, 5)
+drag_vertical_enabled = true
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=570564593]
 sprite_frames = SubResource("SpriteFrames_f1ek2")
